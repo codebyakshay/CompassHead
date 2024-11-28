@@ -16,6 +16,8 @@ CompassHead is a React Native application that shows the device’s current head
 - Animated API
 - Device Magnetometer Sensor
 
+[![Download CompassHead APK](https://img.shields.io/badge/Download-CompassHead-blue)](https://codebyakshay.com/demo_compassHead/CompassHead.apk)
+
 ## Demo GIF
 
 <img src="https://codebyakshay.com/demo_compassHead/demo_video.gif" alt="CompassHead Demo GIF" width="300" />
