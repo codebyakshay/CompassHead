@@ -1,22 +1,28 @@
 # CompassHead
 
-# This is a demonstration app for displaying the bearing/azimuth of a compass using React Native and device sensors.
+![CompassHead Logo](https://codebyakshay.com/demo_compassHead/LOGO.webp)
 
-# Introduction
+**A demonstration app for displaying the bearing/azimuth of a compass using React Native and device sensors.**
+
+## Introduction
 
 CompassHead is a React Native application that shows the device’s current heading in degrees and cardinal directions (N, NE, E, SE, S, SW, W, NW). It uses the device’s magnetometer sensor to provide real-time compass functionality with smoothly transitioning text colors corresponding to direction changes. It also includes a recalibration feature.
 
-Technologies Used
+## Technologies Used
 
-    •	React Native (CLI)
-    •	JavaScript (ES6+)
-    •	react-native-sensors
-    •	Animated API
-    •	Device Magnetometer Sensor
+- React Native (CLI)
+- JavaScript (ES6+)
+- `react-native-sensors`
+- Animated API
+- Device Magnetometer Sensor
 
-<img src="./demo-ss.png" alt="CompassHead Screenshot" width="300">
+## Demo GIF
 
-<video width="320" height="240" controls>
-  <source src="./demo-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![CompassHead Demo GIF](https://codebyakshay.com/demo_compassHead/demo_gif.gif)
+
+
+## Screenshot
+
+![CompassHead Screenshot](https://codebyakshay.com/demo_compassHead/demo-ss.png)
+
+
