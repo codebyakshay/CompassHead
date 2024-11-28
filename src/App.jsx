@@ -1,16 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import {
-  StatusBar,
-  StyleSheet,
-  Animated,
-  TouchableOpacity,
-  Text,
-} from 'react-native';
+import { StatusBar, Animated, TouchableOpacity, Text } from 'react-native';
 import {
   magnetometer,
   setUpdateIntervalForType,
   SensorTypes,
 } from 'react-native-sensors';
+import { styles } from './AppStyle';
 
 const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW', 'N'];
 
@@ -95,30 +90,5 @@ const App = () => {
     </Animated.View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center', // Centers vertically
-    alignItems: 'center', // Centers horizontally
-    backgroundColor: 'white', // Set background to white
-  },
-  text: {
-    fontSize: 60,
-    textAlign: 'center',
-  },
-
-  button: {
-    backgroundColor: '#2196F3', // Blue background
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    borderRadius: 10,
-  },
-  buttonText: {
-    color: '#FFFFFF', // White text
-    fontSize: 18,
-    textAlign: 'center',
-  },
-});
 
 export default App;
