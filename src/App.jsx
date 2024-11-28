@@ -1,5 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { StatusBar, StyleSheet, Animated } from 'react-native';
+import {
+  StatusBar,
+  StyleSheet,
+  Animated,
+  TouchableOpacity,
+  Text,
+} from 'react-native';
 import {
   magnetometer,
   setUpdateIntervalForType,
@@ -64,12 +70,28 @@ const App = () => {
     outputRange: outputRange,
   });
 
+  const handleRecalibrate = () => {
+    // Prompt the user to recalibrate
+    alert(
+      'To recalibrate the compass, please move your device in a figure-eight motion.',
+    );
+
+    // Reset state variables if necessary
+    setDegree(0);
+    setDirection('N');
+    animatedDegree.setValue(0);
+  };
+
   return (
     <Animated.View style={styles.container}>
       <StatusBar hidden />
       <Animated.Text style={[styles.text, { color: textColor }]}>
         {degree}° {direction}
       </Animated.Text>
+
+      <TouchableOpacity style={styles.button} onPress={handleRecalibrate}>
+        <Text style={styles.buttonText}>Recalibrate Compass</Text>
+      </TouchableOpacity>
     </Animated.View>
   );
 };
@@ -83,6 +105,18 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 60,
+    textAlign: 'center',
+  },
+
+  button: {
+    backgroundColor: '#2196F3', // Blue background
+    paddingVertical: 15,
+    paddingHorizontal: 30,
+    borderRadius: 10,
+  },
+  buttonText: {
+    color: '#FFFFFF', // White text
+    fontSize: 18,
     textAlign: 'center',
   },
 });
