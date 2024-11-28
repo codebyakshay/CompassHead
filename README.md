@@ -1,6 +1,6 @@
 # CompassHead
 
-![CompassHead Logo](https://codebyakshay.com/demo_compassHead/LOGO.webp)
+<img src="https://codebyakshay.com/demo_compassHead/LOGO.webp" alt="CompassHead Logo" width="200" />
 
 **A demonstration app for displaying the bearing/azimuth of a compass using React Native and device sensors.**
 
@@ -18,11 +18,8 @@ CompassHead is a React Native application that shows the device’s current head
 
 ## Demo GIF
 
-![CompassHead Demo GIF](https://codebyakshay.com/demo_compassHead/demo_gif.gif)
-
+<img src="https://codebyakshay.com/demo_compassHead/demo_gif.gif" alt="CompassHead Demo GIF" width="300" />
 
 ## Screenshot
 
-![CompassHead Screenshot](https://codebyakshay.com/demo_compassHead/demo-ss.png)
-
-
+<img src="https://codebyakshay.com/demo_compassHead/demo-ss.png" alt="CompassHead Screenshot" width="300" />
