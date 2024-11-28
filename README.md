@@ -18,7 +18,7 @@ CompassHead is a React Native application that shows the device’s current head
 
 ## Demo GIF
 
-<img src="https://codebyakshay.com/demo_compassHead/demo_gif.gif" alt="CompassHead Demo GIF" width="300" />
+<img src="https://codebyakshay.com/demo_compassHead/demo_video.gif" alt="CompassHead Demo GIF" width="300" />
 
 ## Screenshot
 
